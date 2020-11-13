@@ -1,0 +1,14 @@
+{
+  "name": "<%= projectName %>",
+  "version": "0.0.1",
+  "description": "<%= description %>",
+  "main": "dist/index.js",
+  "author": "dewfall",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vlib-docsify"
+  },
+  "devDependencies": {
+    "vlib-docsify": "D:\\Code\\open-source\\vlib-docsify"
+  }
+}
