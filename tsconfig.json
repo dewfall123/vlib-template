@@ -24,7 +24,7 @@
     "rootDir": ".",
     "paths": {
       "@/*": ["src/*"],
-      "<%= projectName %>": ["src/"]
+      "projectName": ["src/"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.vue"],

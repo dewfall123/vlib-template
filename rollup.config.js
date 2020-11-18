@@ -2,6 +2,7 @@ import tsPlugin from 'rollup-plugin-typescript2';
 import nodeResolve from '@rollup/plugin-node-resolve';
 import alias from 'rollup-plugin-alias';
 import commonjs from 'rollup-plugin-commonjs';
+import vuePlugin from 'rollup-plugin-vue';
 
 export default {
   input: 'src/index.ts',
@@ -11,9 +12,13 @@ export default {
   },
   external: ['vue', 'vue-demi'],
   plugins: [
+    vuePlugin({
+      preprocessStyles: true,
+      css: true,
+    }),
+    tsPlugin(),
     nodeResolve(),
     commonjs(),
-    tsPlugin(),
     alias({
       resolve: ['.jsx', '.js'],
       entries: {},
