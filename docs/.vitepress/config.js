@@ -37,7 +37,7 @@ module.exports = {
           },
         ],
       },
-      '/en': {
+      '/en/': {
         lang: 'en-US',
         title: '<%= projectName %>',
         description: '<%= description %>',
