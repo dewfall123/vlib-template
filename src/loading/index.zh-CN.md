@@ -3,17 +3,27 @@ map:
   path: /components/loading
 ---
 
-## Loading
+# Loading
 
-### 代码演示
+这是一个简单的`Loading`组件。
 
-#### 基础用法
+## 代码演示
+
+### 基础用法
 
 <demo src="./demo/demo.vue"
   language="vue"
   title="基本用法"
   desc="loading组件。">
 </demo>
+
+## API
+
+```ts
+import { Loading } from 'vlibTemplate';
+...
+<Loading size="64px" />
+```
 
 ## Props
 

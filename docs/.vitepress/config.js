@@ -1,11 +1,12 @@
-const base = process.env.NODE_ENV === 'production' ? '/projectName' : '';
+const base = process.env.NODE_ENV === 'production' ? '/vlibTemplate' : '';
 
 module.exports = {
-  title: '<%= projectName %>',
-  description: '<%= description %>',
+  title: 'vlibTemplate',
+  description: '_description',
   outDir: '../dist/',
   alias: {
-    projectName: '/@src/',
+    // 把demo 文件引用指向正确地址
+    vlibTemplate: '/@src/',
   },
   base,
   themeConfig: {
@@ -15,8 +16,8 @@ module.exports = {
     locales: {
       '/': {
         lang: 'zh-CN',
-        title: '<%= projectName %>',
-        description: '<%= description %>',
+        title: 'vlibTemplate',
+        description: '_description',
         label: '中文',
         selectText: '语言',
         nav: [
@@ -36,8 +37,8 @@ module.exports = {
       },
       '/en/': {
         lang: 'en-US',
-        title: '<%= projectName %>',
-        description: '<%= description %>',
+        title: 'vlibTemplate',
+        description: '_description',
         label: 'English',
         selectText: 'Languages',
         nav: [
@@ -59,7 +60,7 @@ module.exports = {
     search: {
       searchMaxSuggestions: 10,
     },
-    repo: '{user}<%= projectName %>',
+    repo: '{user}vlibTemplate',
     repoLabel: 'Github',
     lastUpdated: true,
     prevLink: true,

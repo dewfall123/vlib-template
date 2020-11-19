@@ -24,7 +24,7 @@
     "rootDir": ".",
     "paths": {
       "@/*": ["src/*"],
-      "projectName": ["src/"]
+      "vlibTemplate": ["src/"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.vue", "src/shim.d.ts"],

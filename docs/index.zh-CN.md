@@ -1,12 +1,12 @@
 ## 介绍
 
-### <%= projectName %>是什么?
+### vlibTemplate 是什么?
 
-<%= projectName %>是一个
+vlibTemplate 是一个...
 
-### <%= projectName %>设计理念
+### vlibTemplate 设计理念
 
-<%= projectName %>是一个
+vlibTemplate 是一个...
 
 ## 特性
 
@@ -16,11 +16,11 @@
 ## 安装
 
 ```
-yarn add <%= projectName %>
+yarn add vlibTemplate
 ```
 
 or
 
 ```
-npm install <%= projectName %>
+npm install vlibTemplate
 ```

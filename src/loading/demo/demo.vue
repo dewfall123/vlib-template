@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import { Loading } from 'projectName';
+import { Loading } from 'vlibTemplate';
 
 export default {
   components: {

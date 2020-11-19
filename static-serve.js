@@ -6,12 +6,12 @@ const app = new Koa();
 app.use(
   StaticServer({
     rootDir: 'docs/dist/',
-    rootPath: '/projectName',
+    rootPath: '/vlibTemplate',
   }),
 );
 
 app.use(async (ctx) => {
-  ctx.redirect('/projectName');
+  ctx.redirect('/vlibTemplate');
 });
 
 const port = 3001;

@@ -3,17 +3,27 @@ map:
   path: /components/loading
 ---
 
-## Loading
+# Loading
 
-### Examples
+## Examples
 
-#### Basic Usage
+This is a `loading` component.
+
+### Basic Usage
 
 <demo src="./demo/demo.vue"
   language="vue"
-  title="基本用法"
-  desc="loading组件。">
+  title="Basic Usage"
+  desc="loading components.">
 </demo>
+
+## API
+
+```ts
+import { Loading } from 'vlibTemplate';
+...
+<Loading size="64px" />
+```
 
 ## Props
 

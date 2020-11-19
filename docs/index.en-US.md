@@ -1,26 +1,26 @@
 ## Getting Started
 
-### <%= projectName %>是什么?
+### What is vlibTemplate?
 
-<%= projectName %>是一个
+`vlibTemplate` is a ...
 
-### <%= projectName %>设计理念
+### Why vlibTemplate?
 
-<%= projectName %>是一个
+`vlibTemplate` is a ...
 
-## 特性
+## Features
 
-- 易于使用.
-- 由 TS 编写，完整的类型推导.
+- This is feature one.
+- This is feature two.
 
-## 安装
+## Usage
 
 ```
-yarn add <%= projectName %>
+yarn add vlibTemplate
 ```
 
 or
 
 ```
-npm install <%= projectName %>
+npm install vlibTemplate
 ```

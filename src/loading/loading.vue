@@ -9,7 +9,7 @@
 export default {
   props: {
     size: { type: String, default: '64px' },
-    color: { type: String, default: '#fff000' },
+    color: { type: String, default: '#3eaf7c' },
   },
 };
 </script>
@@ -18,7 +18,7 @@ export default {
 .ring {
   position: relative;
   background: transparent;
-  border: 3px solid #3c3c3c;
+  border: 3px solid #afafaf;
   border-radius: 50%;
   text-align: center;
   line-height: 150px;
@@ -26,8 +26,7 @@ export default {
   font-size: 20px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  text-shadow: 0 0 10px #fff000;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 10px #3eaf7c;
 }
 .ring:before {
   content: '';
@@ -37,8 +36,8 @@ export default {
   width: 100%;
   height: 100%;
   border: 3px solid transparent;
-  border-top: 3px solid #fff000;
-  border-right: 3px solid #fff000;
+  border-top: 3px solid #3eaf7c;
+  border-right: 3px solid #3eaf7c;
   border-radius: 50%;
   animation: animateC 2s linear infinite;
 }
@@ -59,10 +58,9 @@ span:before {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #fff000;
+  background: #3eaf7c;
   top: -6px;
   right: -8px;
-  box-shadow: 0 0 20px #fff000;
 }
 @keyframes animateC {
   0% {

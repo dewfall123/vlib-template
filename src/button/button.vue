@@ -14,6 +14,6 @@ export default {
 
 <style scoped>
 .button {
-  padding: 8px 16px;
+  padding: 6px 24px;
 }
 </style>

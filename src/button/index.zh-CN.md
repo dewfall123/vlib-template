@@ -6,6 +6,8 @@ map:
 
 # Button
 
+这是一个简单的按钮。
+
 ## 代码演示
 
 ### 基本用法
@@ -15,6 +17,14 @@ map:
   title="基本用法"
   desc="点击切换。">
 </demo>
+
+## API
+
+```ts
+import { Button } from 'vlibTemplate';
+...
+<Button>按钮</Button>
+```
 
 ## Props
 

@@ -5,6 +5,8 @@ map:
 
 # Button
 
+This is a button.
+
 ## Example
 
 ### Basic Usage
@@ -14,6 +16,14 @@ map:
   title="Basic useage"
   desc="This is a button.">
 </demo>
+
+## API
+
+```ts
+import { Button } from 'vlibTemplate';
+...
+<Button>button</Button>
+```
 
 ## Props
 
