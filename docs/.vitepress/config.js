@@ -1,5 +1,3 @@
-const path = require('path');
-
 const base = process.env.NODE_ENV === 'production' ? '/projectName' : '';
 
 module.exports = {
@@ -29,7 +27,6 @@ module.exports = {
           { text: '介绍', link: '/' },
           {
             text: 'Vue组件',
-            link: '/components/',
             children: [
               { text: 'Loading', link: '/components/loading/' },
               { text: 'Button', link: '/components/button/' },
@@ -48,13 +45,12 @@ module.exports = {
           { text: 'Components', link: '/components/loading/' },
         ],
         sidebar: [
-          { text: 'Getting Started', link: '/' },
+          { text: 'Getting Started', link: '/en/' },
           {
-            text: 'Vue Components',
-            link: '/components/',
+            text: 'Components',
             children: [
-              { text: 'Loading', link: '/components/loading/' },
-              { text: 'Button', link: '/components/button/' },
+              { text: 'Loading', link: '/en/components/loading/' },
+              { text: 'Button', link: '/en/components/button/' },
             ],
           },
         ],

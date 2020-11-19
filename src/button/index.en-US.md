@@ -1,18 +1,18 @@
 ---
 map:
-  path: /components/loading
+  path: /components/button
 ---
 
-## Loading
+# Button
 
-### Examples
+## Example
 
-#### Basic Usage
+### Basic Usage
 
-<demo src="./demo/demo.vue"
+<demo src="./demo.vue"
   language="vue"
-  title="基本用法"
-  desc="loading组件。">
+  title="Basic useage"
+  desc="This is a button.">
 </demo>
 
 ## Props

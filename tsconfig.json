@@ -27,6 +27,6 @@
       "projectName": ["src/"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.vue"],
-  "exclude": ["node_modules", "dist", "src/**/__tests__"]
+  "include": ["src/**/*.ts", "src/**/*.vue", "src/shim.d.ts"],
+  "exclude": ["node_modules", "dist"]
 }

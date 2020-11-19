@@ -5,7 +5,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   props: {
     size: { type: String, default: '64px' },
@@ -15,7 +15,7 @@ export default {
 </script>
 
 <style scoped>
-/* .ring {
+.ring {
   position: relative;
   background: transparent;
   border: 3px solid #3c3c3c;
@@ -79,5 +79,5 @@ span:before {
   100% {
     transform: rotate(405deg);
   }
-} */
+}
 </style>

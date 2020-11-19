@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style scoped>
-/* .button {
+.button {
   padding: 8px 16px;
-} */
+}
 </style>
