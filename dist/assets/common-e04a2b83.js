@@ -1,0 +1,1 @@
+import{e as o,f as s,d as e,x as n}from"./common-0efe73e1.js";import{a}from"./common-2091e3af.js";var r={components:{Loading:a},setup:()=>({})};r.render=function(a,r,m,t,i,f){const p=n("Loading");return e(),o("div",null,[s(p,{size:"150px"})])};export{r as s};
