@@ -5871,7 +5871,7 @@ rollup-pluginutils@^2.8.1, rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^2.32.1:
+rollup@^2.32.1, rollup@^2.33.3:
   version "2.33.3"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.33.3.tgz#ae72ce31f992b09a580072951bfea76e9df17342"
   integrity sha512-RpayhPTe4Gu/uFGCmk7Gp5Z9Qic2VsqZ040G+KZZvsZYdcuWaJg678JeDJJvJeEQXminu24a2au+y92CUWVd+w==
@@ -6902,13 +6902,14 @@ vite@^1.0.0-rc.9:
     vue "^3.0.2"
     ws "^7.3.1"
 
-vitepress-dg@latest:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/vitepress-dg/-/vitepress-dg-0.8.0.tgz#68664fd9a7da4ee479d38bbef7015173f3e89a69"
-  integrity sha512-IHqol/F/06G0tUjvdec+P132dJyBQnOYKTHhoBuLrmyy5RbViD0XxJ2afSh/iMNFDyiLKnuc9gYMYOlGkiE+Ng==
+vitepress-for-component@latest:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/vitepress-for-component/-/vitepress-for-component-0.8.2.tgz#04e9cd5fbb57c696169b5260a7a81daef9a3c171"
+  integrity sha512-TWcZdkSLRJb08wARnlRNrS9FGSIA+dEq7ge1CiRSeOtUfFETM5HWyWp3PlSaHVHQKxlrvp4N1K79SBEbp5j3KA==
   dependencies:
     "@vue/compiler-sfc" "^3.0.2"
     "@vue/server-renderer" "^3.0.2"
+    chalk "^4.1.0"
     debug "^4.1.1"
     diacritics "^1.3.0"
     escape-html "^1.0.3"
@@ -6922,8 +6923,10 @@ vitepress-dg@latest:
     markdown-it-emoji "^1.4.0"
     markdown-it-table-of-contents "^0.4.4"
     minimist "^1.2.5"
+    ora "^5.1.0"
     portfinder "^1.0.28"
     prismjs "^1.20.0"
+    rollup "^2.33.3"
     slash "^3.0.0"
     vite "^1.0.0-rc.9"
     vue "^3.0.2"
