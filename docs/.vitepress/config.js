@@ -60,7 +60,7 @@ module.exports = {
     search: {
       searchMaxSuggestions: 10,
     },
-    repo: '{user}vlibTemplate',
+    repo: '{user}/vlibTemplate',
     repoLabel: 'Github',
     lastUpdated: true,
     prevLink: true,
