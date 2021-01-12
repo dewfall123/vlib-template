@@ -1,6 +1,6 @@
 {
   "name": "vlibTemplate",
-  "version": "0.1.0",
+  "version": "0.11.0",
   "description": "_description",
   "main": "dist/index.js",
   "types": "dist/src/index.d.ts",
