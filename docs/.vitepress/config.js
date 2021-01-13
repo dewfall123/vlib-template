@@ -1,12 +1,15 @@
 const base = process.env.NODE_ENV === 'production' ? '/vlibTemplate' : '';
+const { resolve } = require('path');
 
 module.exports = {
   title: 'vlibTemplate',
   description: '_description',
   outDir: '../dist/',
+  // 扫描srcIncludes里面的 *.md文件
+  srcIncludes: ['src'],
   alias: {
-    // 把demo 文件引用指向正确地址
-    vlibTemplate: '/@src/',
+    // 为了能在demo中正确的使用  import { X } from 'vlibTemplate'
+    [`vlibTemplate`]: resolve('./src'),
   },
   base,
   themeConfig: {
