@@ -11,7 +11,7 @@ This is a button.
 
 ### Basic Usage
 
-<demo src="./demo.vue"
+<demo src="./demo/demo.vue"
   language="vue"
   title="Basic useage"
   desc="This is a button.">
@@ -21,8 +21,6 @@ This is a button.
 
 ```ts
 import { Button } from 'vlibTemplate';
-...
-<Button>button</Button>
 ```
 
 ## Props

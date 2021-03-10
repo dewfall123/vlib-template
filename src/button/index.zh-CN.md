@@ -12,7 +12,7 @@ map:
 
 ### 基本用法
 
-<demo src="./demo.vue"
+<demo src="./demo/demo.vue"
   language="vue"
   title="基本用法"
   desc="点击切换。">
@@ -22,8 +22,6 @@ map:
 
 ```ts
 import { Button } from 'vlibTemplate';
-...
-<Button>按钮</Button>
 ```
 
 ## Props

@@ -4,7 +4,6 @@ const { resolve } = require('path');
 module.exports = {
   title: 'vlibTemplate',
   description: '_description',
-  outDir: '../dist/',
   // 扫描srcIncludes里面的 *.md文件
   srcIncludes: ['src'],
   alias: {
@@ -13,7 +12,7 @@ module.exports = {
   },
   base,
   themeConfig: {
-    logo: '',
+    // logo: '../logo.svg',
     nav: [{ text: 'demo', link: '/math' }],
     lang: 'zh-CN',
     locales: {
@@ -23,19 +22,10 @@ module.exports = {
         description: '_description',
         label: '中文',
         selectText: '语言',
-        nav: [
-          { text: '指南', link: '/' },
-          { text: '组件', link: '/components/loading/' },
-        ],
+        nav: [{ text: '指南', link: '/' }],
         sidebar: [
           { text: '介绍', link: '/' },
-          {
-            text: 'Vue组件',
-            children: [
-              { text: 'Loading', link: '/components/loading/' },
-              { text: 'Button', link: '/components/button/' },
-            ],
-          },
+          { text: 'Button', link: '/components/button/' },
         ],
       },
       '/en/': {
@@ -44,26 +34,17 @@ module.exports = {
         description: '_description',
         label: 'English',
         selectText: 'Languages',
-        nav: [
-          { text: 'Guide', link: '/' },
-          { text: 'Components', link: '/components/loading/' },
-        ],
+        nav: [{ text: 'Guide', link: '/' }],
         sidebar: [
           { text: 'Getting Started', link: '/en/' },
-          {
-            text: 'Components',
-            children: [
-              { text: 'Loading', link: '/en/components/loading/' },
-              { text: 'Button', link: '/en/components/button/' },
-            ],
-          },
+          { text: 'Button', link: '/en/components/button/' },
         ],
       },
     },
     search: {
       searchMaxSuggestions: 10,
     },
-    repo: '{user}/vlibTemplate',
+    repo: '_user/vlibTemplate',
     repoLabel: 'Github',
     lastUpdated: true,
     prevLink: true,
