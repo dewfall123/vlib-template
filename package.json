@@ -1,6 +1,6 @@
 {
   "name": "vlibTemplate",
-  "version": "0.12.0",
+  "version": "0.0.1",
   "description": "_description",
   "main": "./dist/vlibTemplate.umd.js",
   "module": "./dist/vlibTemplate.es.js",
