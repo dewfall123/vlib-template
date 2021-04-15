@@ -3,6 +3,6 @@
  */
 export default {
   optimizeDeps: {
-    include: [],
+    include: ['vitepress-for-component/dist/client/theme-default'],
   },
 };
