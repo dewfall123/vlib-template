@@ -26,7 +26,7 @@
       "@/*": ["src/*"],
       "vlibTemplate": ["src/"]
     },
-    "plugins": ["@vuedx/typescript-plugin-vue"]
+    "plugins": []
   },
   "include": ["src/index.ts"],
   "exclude": ["node_modules", "dist"]
