@@ -11,7 +11,7 @@
     }
   },
   "types": "dist/src/index.d.ts",
-  "author": "dewfall",
+  "author": "_user",
   "license": "MIT",
   "scripts": {
     "dev": "vitepress-fc dev --root=docs",

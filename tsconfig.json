@@ -28,6 +28,6 @@
     },
     "plugins": ["@vuedx/typescript-plugin-vue"]
   },
-  "include": ["src/index.ts"],
+  "include": ["src"],
   "exclude": ["node_modules", "dist"]
 }
