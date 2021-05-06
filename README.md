@@ -1,3 +1,3 @@
-## vlib-template
+## vlibTemplate
 
 library templates.
