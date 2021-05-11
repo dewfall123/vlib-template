@@ -18,6 +18,7 @@
     "declaration": true,
     "isolatedModules": true,
     "declarationDir": "dist",
+    "skipLibCheck": true,
     "jsx": "preserve",
     "lib": ["esnext", "dom"],
     "types": ["jest", "node"],
