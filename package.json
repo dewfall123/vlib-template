@@ -14,7 +14,7 @@
   "author": "_user",
   "license": "MIT",
   "scripts": {
-    "dev": "vitepress-fc dev --root=docs",
+    "dev": "vitepress-fc dev --root=docs --host",
     "build": "vite build && yarn type",
     "type": "tsc -d",
     "test": "jest",
@@ -60,9 +60,8 @@
     "rollup-plugin-vue": "^6.0.0-beta.11",
     "ts-jest": "^26.4.4",
     "typescript": "^4.2.2",
-    "vite": "^2.0.2",
+    "vite": "^2.4.1",
     "vitepress-for-component": "latest",
-    "vue": "^3.0.2",
     "vue-jest": "^5.0.0-alpha.6"
   },
   "keywords": [
