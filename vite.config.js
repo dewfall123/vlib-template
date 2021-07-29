@@ -1,5 +1,8 @@
-import { resolve } from 'path';
+// yarn build 用到的vite配置
+
 import vue from '@vitejs/plugin-vue';
+import vueJsx from '@vitejs/plugin-vue-jsx';
+import { resolve } from 'path';
 
 /**
  * @type {import('vite').UserConfig}
@@ -9,7 +12,7 @@ export default {
     include: [],
     exclude: [],
   },
-  plugins: [vue()],
+  plugins: [vue(), vueJsx()],
   build: {
     minify: true,
     lib: {
