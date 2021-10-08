@@ -55,7 +55,7 @@
     "ts-jest": "^26.4.4",
     "typescript": "^4.2.2",
     "vite": "^2.4.1",
-    "vitepress-for-component": "latest",
+    "vitepress-for-component": "^0.16.1",
     "vue-jest": "^5.0.0-alpha.6"
   },
   "keywords": [
