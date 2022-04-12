@@ -1,4 +1,4 @@
-import DefaultTheme from 'vitepress-for-component/dist/client/theme-default';
+import DefaultTheme from 'vitepress/theme';
 import Layout from './Layout.vue';
 
 export default {
